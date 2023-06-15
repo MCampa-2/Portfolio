@@ -128,6 +128,34 @@ html{
     color: #C20114;
 }
 
+.contact-button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #6D7275;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.contact-button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+
+.contact-button:hover{
+    background-color: #54585a;
+    color: white;
+}
+
 @media(max-width: 600px){
     .hero_section h1{
         font-size: 3rem;
@@ -254,7 +282,7 @@ html{
 }
 
 .project-container h3{
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     color: #6D7275;
 }
 
@@ -264,6 +292,10 @@ html{
 
 .projects-info span{
     display: flex;
+    margin: 5px;
+}
+
+.projects-info p{
     margin: 5px;
 }
 
@@ -293,10 +325,14 @@ html{
    border: 1px solid #C7D6D5;
    margin-bottom: 5px;
 }
-@media(max-width: 700px){
+@media(max-width: 768px){
     .project-container{
         grid-template-columns: repeat(1, 100%);
         gap: 10px;
+    }
+
+    .project-container h3{
+        font-size: 1.5rem;
     }
 
     .projects-info{
@@ -329,19 +365,17 @@ footer p{
     font-size: 1.4rem;
 }
 
+.github:hover, .linkedin:hover,.envelope:hover{
+    color: #54585a;
+}
+
 .github,.linkedin{
     padding-right: 15px;
 }
 
-
-footer h2{
-    color: #0C120C;
-    font-size: 2rem;
-    padding: 5px;
-}
-
 .copyright{
     font-size: 1.2rem;
+    padding: 10px;
 }
 
 
