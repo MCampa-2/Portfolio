@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
@@ -24,18 +26,18 @@
     </div>
     <!--Hero Section-->
     <div class="hero_section">
-        <h1>I'm Michael</h1>
-        <p>a<em> web</em> developer.</p>
-        <button class="contact-button"><a href="mailto:michale.campagnoli@protonmail.com">Contact</a></button>
+        <h1 data-aos-duration="3000" data-aos="fade-right">I'm Michael</h1>
+        <p data-aos="fade-left" data-aos-duration="2000">a<em> web</em> developer.</p>
+        <button data-aos="fade-up" data-aos-duration="2000" class="contact-button"><a href="mailto:michale.campagnoli@protonmail.com">Contact</a></button>
     </div>
     <!--About-->
     <section id="About" class="About">
-            <img src="images/Me.jpg">
+            <img data-aos="flip-left" data-aos-duration="2000" src="images/Me.jpg">
         <div class="info">
             <h2>About Me</h2>
             <p>
                 My name is Michael Campagnoli and I am a Front-end Developer with 2 years of experience in creating visually appealing and user-friendly 
-                websites and applications. I have a strong understanding of HTML, CSS, JavaScript, React, Node js, and MySQL which I use to bring designs to life.
+                websites and applications. I have a strong understanding of HTML, CSS, JavaScript, React, Node js, and MongoDB the "MERN Stack" which I use to bring designs to life.
             </p>
             <div id="more-info" style="display: none;">  
                 <p>
@@ -80,7 +82,7 @@
         <div class="projects-info">
             <h3>Landing Page</h3>
             <hr class="title-line">
-            <p>This beautiful landing page was created in React to to show the understanding of the fundamentals of this popular framework. </p>
+            <p>This beautiful landing page was created in React to show the understanding of the fundamentals of this popular framework. </p>
             <span><a href="https://mcampa-2.github.io/Temp-Backroads/" target="_blank">View Project</a><a href="https://github.com/MCampa-2/Temp-Backroads" target="_blank">View Code</a></span>
         </div>
         <div class="project-img">
@@ -105,7 +107,9 @@
 
 
 
-   
+    <script>
+        AOS.init();
+      </script>
     <script src="main.js"></script>
 </body>
 </html>

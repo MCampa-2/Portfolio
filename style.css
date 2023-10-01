@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Crimson+Text&family=Roboto+Mono:wght@300&family=Roboto+Slab:wght@500&display=swap');
-/*font-family: 'Bakbak One', cursive;
-font-family: 'Crimson Text', serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Roboto Slab', serif;
-*/
+
 
 *{
     margin: 0;
@@ -274,7 +270,7 @@ body::-webkit-scrollbar{
 }
 
 .Projects h2{
-    font-size: 2rem;
+    font-size: 3rem;
     color: #C7D6D5;
     text-align: center;
     margin-bottom: 20px;
@@ -340,6 +336,10 @@ body::-webkit-scrollbar{
 
     .projects-info span{
         justify-content: center;
+    }
+
+    .project-container h2{
+        font-size: 2rem;
     }
 }
 
